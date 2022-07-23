@@ -339,7 +339,7 @@
                   "flex-shrink": "initial",
                   "flex-basis": "auto",
                   "word-break": "break-word",
-                  "padding-right": "2rem"
+                  "padding-left": "2rem"
                 },
                 ".navbar-toggler": {
                   "flex-basis": "auto"
@@ -377,7 +377,7 @@
               "flex-shrink": "0",
               "align-items": "center",
               "margin-right": "0",
-              "padding": "10px 30px !important",
+              "padding": "10px 10px !important",
               "transition": "all 0.3s",
               "word-break": "break-word",
               "z-index": "1",

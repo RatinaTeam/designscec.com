@@ -1052,11 +1052,11 @@ body {
 }
 .display-2 {
   font-family: 'ArbFONTS-ExpoArabic-Book';
-  font-size: 2.375rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 2.96875rem;
+  font-size: 2.5rem;
 }
 .display-4 {
   font-family: 'ArbFONTS-ExpoArabic-Book';
@@ -1099,9 +1099,9 @@ body {
     line-height: calc( 1.1 * (2.18125rem + (4.375 - 2.18125) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.9rem;
-    font-size: calc( 1.48125rem + (2.375 - 1.48125) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.48125rem + (2.375 - 1.48125) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.64rem;
@@ -2280,9 +2280,9 @@ button {
   transition: transform 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .cid-sLnAegPcbM {
-  padding-top: 7rem;
+  padding-top: 10rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/backg-1-2000x1125.png");
+  background-image: url("../../../assets/images/mbr-1920x1357.jpg");
 }
 .cid-sLnAegPcbM .mbr-section-title {
   width: 100%;
@@ -2341,11 +2341,11 @@ button {
 }
 .cid-tbyivxD4oM .card-heading {
   padding-bottom: 32px;
-  color: #000000;
+  color: #5f5d68;
 }
 .cid-tbyivxD4oM .p {
   padding-bottom: 26px;
-  color: #000000;
+  color: #5f5d68;
 }
 .cid-tbyivxD4oM .p:last-child {
   padding-bottom: 0;

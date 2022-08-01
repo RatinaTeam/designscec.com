@@ -3,3 +3,8 @@
    font-display: swap;
    src: url('ArbFONTS-ExpoArabic-Book/font.ttf');
 }
+@font-face {
+   font-family: 'ArbFONTS-kfnl';
+   font-display: swap;
+   src: url('ArbFONTS-kfnl/font.ttf');
+}

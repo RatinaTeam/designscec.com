@@ -14,7 +14,7 @@
         "mainFont": "Space Grotesk",
         "display1Font": "ArbFONTS-ExpoArabic-Book",
         "display1Size": 4.375,
-        "display2Font": "ArbFONTS-ExpoArabic-Book",
+        "display2Font": "ArbFONTS-kfnl",
         "display2Size": "2",
         "display5Font": "ArbFONTS-ExpoArabic-Book",
         "display5Size": 1.5,
@@ -56,6 +56,12 @@
         "name": "ArbFONTS-ExpoArabic-Book",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/ArbFONTS-ExpoArabic-Book/font.ttf"
+      },
+      {
+        "css": "'ArbFONTS-kfnl'",
+        "name": "ArbFONTS-kfnl",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/ArbFONTS-kfnl/font.ttf"
       }
     ],
     "imageResize": true,

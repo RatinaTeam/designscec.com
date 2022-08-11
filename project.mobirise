@@ -682,12 +682,12 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"article5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" title=\"Paragraphs Amount\" name=\"articlesAmount\" min=\"1\" max=\"10\" value=\"1\" step=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/pexels-veeterzy-38132-1-1280x854.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#05649c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-{{contentWidth}}\">\n                <div class=\"row\">\n                    <div class=\"col-12\">\n                        <h4 class=\"card-heading mbr-fonts-style mbr-section-title\" data-app-selector=\".card-heading\" data-app-placeholder=\"Type Text\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>من نحن</b></h4>\n\n                        <div class=\"article\" mbr-list mbr-list-grow=\"articlesAmount\">\n                            <p class=\"mbr-text mbr-fonts-style p\" mbr-theme-style=\"display-7\" data-app-selector=\".p\">فريق هندسي متكامل يهتم باخراج تصاميم إبداعية وإشراف متقن بأعلى معايير الجودة الهندسية وعلى العديد من المشاريع العملاقة من فنادق ومستشفيات وجامعات ومصانع ومباني إدارية وسكنية وتجارية ومراكز إسلامية وحضارية ومساجد وقاعات محاضرات وتطوير للبنية التحتية.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n</div></section>",
           "_cid": "tbyhqG8quu",
           "_anchor": "o_about_us",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
@@ -721,12 +721,12 @@
           "_anchor": "o_our_vision",
           "_isUserblock": true,
           "_cid": "tbyivxD4oM",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
@@ -763,12 +763,12 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"article6\" group=\"Article\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"8\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#29aae3\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"wrapper col-12 col-md-{{contentWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>هدفنا</b></h3>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">الإنسان هو محور تفكيرنا الأول بتجربة ممتدة لأكثر من عقدين في مجال للاستشارات الهندسية بالمملكة والشرق الأوسط لذلك فإن تنمية المجتمع الإيجابية هو هدفنا، بغية الوصول لأعلى درجات النجاح والتميز، في مجالات الدراسات والاستشارات الهندسية</h3>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tbyF1qW1jk",
           "_anchor": "o_our_mission",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "_name": "gallery3",
@@ -1282,7 +1282,7 @@
           "_anchor": "footer1-b",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n        function hide_all_section(){\n        \tdocument.querySelectorAll('[id^=\"o_\"]').forEach((e) => {\n    \t\t\t$(e).hide();\n\t\t\t}); \n        }\n        hide_all_section();\n        function open_section(id){\n            hide_all_section();\n            id = 'o_'+id;\n            $('#'+id).show();            \n            document.querySelector(\"#\"+id).scrollIntoView({ behavior: \"smooth\" });                        \n        }\n        \n    </script>"
+            "<script>\n        function hide_all_section(){\n        \tdocument.querySelectorAll('[id^=\"o_\"]').forEach((e) => {\n    \t\t\t$(e).hide();\n\t\t\t}); \n        }\n        hide_all_section();\n        function open_section(id){\n            hide_all_section();\n            id = 'o_'+id;\n            $('#'+id).show();            \n            document.querySelector(\"#\"+id).scrollIntoView({ behavior: \"smooth\" });   \n            document.querySelector('.navbar-toggler').click();\n        }\n        \n    </script>"
           ],
           "_protectedParams": [],
           "_global": true,
